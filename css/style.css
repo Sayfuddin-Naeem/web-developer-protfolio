@@ -60,12 +60,13 @@ a{
     --dark-07: #F3F3F3;
     --white: #FFFFFF;
     --btn-primary: #FD6E0A;
+    --bg-primary: #FFF8F3;
 }
 
 /* layout  */
 
 .container{
-    margin: 0 23rem;
+    margin: 0 17.25rem;
 }
 
 /* module / reuseable */
@@ -73,6 +74,7 @@ a{
 .btn{
     height: 6.4rem;
     display: inline-block;
+    padding: 1.4rem 2.625rem;
     font-size: 2rem;
     font-weight: bold;
     color: var(--white);
@@ -91,11 +93,15 @@ a{
 
 /* state  */
 
+/***** header Section *****/ 
+
 .section-header{
     width: 100%;
     height: 83.7rem;
-    background-color: #FFF8F3;
+    background-color: var(--bg-primary);
 }
+
+/***** nav Section *****/ 
 
 .section-nav{
     display: flex;
@@ -120,6 +126,60 @@ a{
     align-items: center;
     gap: 5rem;
 }
-.section-nav--item .btn{
-    padding: 1.8rem 3.5rem;
+
+/***** End nav Section *****/
+
+/***** hero Section *****/ 
+
+.section-hero{
+    display: flex;
+    align-items: center;
+    gap: 12.225rem;
 }
+
+.section-hero-content{
+    margin-left: 17.25rem;
+}
+
+.section-hero-content--greetings{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--dark-02);
+}
+
+.section-hero-content--heading{
+    font-size: 8.5rem;
+    margin-bottom: 2rem;
+}
+
+.section-hero-content--details{
+    margin-bottom: 4.2rem;
+    font-size: 1.8rem;
+}
+
+.section-hero-content--btn-container{
+    display: flex;
+    gap: 3rem
+}
+
+.section-hero-content--btn-container .btn-contact{
+    color: var(--btn-primary);
+    background-color: var(--bg-primary);
+}
+
+.section-hero-content--btn-container .btn i{
+    margin-right: 1rem;
+}
+
+.section-hero--image{
+    width: 43.8rem;
+    margin-right: 2.85rem;
+}
+
+/***** End hero Section *****/
+
+
+
+
+/***** End header Section *****/
+
