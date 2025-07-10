@@ -183,8 +183,55 @@ a{
 
 /***** End hero Section *****/
 
-
-
-
 /***** End header Section *****/
+
+
+/***** main Section *****/ 
+
+main h2{
+    color: var(--dark-01);
+}
+
+/***** about Section *****/ 
+
+.section-about{
+    text-align: center;
+    margin: 13rem 0;
+    padding: 13.1rem 11.7rem;
+    background-color: var(--bg-primary);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.section-about--heading, .section-about--details{
+    margin-bottom: 3rem;
+}
+
+.section-about--details{
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+.section-about--info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-about--info p{
+    font-size: 2rem;
+
+    & span{
+        color: var(--dark-02);
+        font-weight: bold;
+    }
+}
+
+/***** End about Section *****/
+
+
+/***** End main Section *****/
+
 
