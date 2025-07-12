@@ -92,6 +92,10 @@ a{
     background-color: var(--btn-primary);
 }
 
+.btn i{
+    margin-right: 1rem;
+}
+
 /* state  */
 
 /***** header Section *****/ 
@@ -170,10 +174,6 @@ a{
 .section-hero-content--btn-container .btn-contact{
     color: var(--btn-primary);
     background-color: var(--bg-primary);
-}
-
-.section-hero-content--btn-container .btn i{
-    margin-right: 1rem;
 }
 
 .section-hero--image{
@@ -278,6 +278,64 @@ main h2{
 }
 
 /***** End skills Section *****/
+
+/***** resume Section *****/ 
+
+.section-resume{
+    text-align: center;
+}
+
+.section-resume .btn{
+    margin-top: 5rem;
+}
+
+.section-resume, .section-resume--heading{
+    margin-bottom: 11.3rem;
+    /* position: relative; */
+}
+
+/* .section-resume .btn{
+    margin-top: 1.5rem;
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+} */
+
+
+.section-resume--content{
+    display: flex;
+    gap: 7.1rem;
+    text-align: left;
+}
+
+.section-resume--content hr{
+    margin: 3rem 0;
+}
+
+.section-resume--content h3, h4{
+    color: var(--dark-02);
+}
+
+.resume-education--heading, .resume-experience--heading{
+    margin-bottom: 3rem;
+}
+
+.education-degree--heading, .experience-jobs--heading{
+    margin-bottom: 1rem;
+}
+
+.education-degree--subheading, .experience-jobs--subheading{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+
+/***** End resume Section *****/
 
 
 /***** End main Section *****/
