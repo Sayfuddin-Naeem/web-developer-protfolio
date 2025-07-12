@@ -10,6 +10,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     font-variation-settings: "wdth" 100;
+    line-height: 1.6;
 }
 
 html{
@@ -99,7 +100,7 @@ a{
     
     background-color: var(--bg-primary);
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
-    background-position:  1.725rem 3.8rem, right bottom;
+    background-position:  1.725rem 2rem, right bottom;
     background-repeat: no-repeat;
     background-size: 8.2rem 60rem, 58rem 38rem;
     
@@ -230,6 +231,53 @@ main h2{
 }
 
 /***** End about Section *****/
+
+/***** skills Section *****/ 
+
+.section-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 13rem;
+}
+
+.section-skills--heading{
+    margin-bottom: 3rem;
+}
+
+.section-skills--details{
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    gap: 2rem;
+}
+
+.skill{
+    width: 24rem;
+    height: 28rem;
+    padding: 3rem;
+    box-shadow: -0.1rem 0.1rem 0.7rem 0.5rem var(--dark-07);
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.skill--image{
+    margin-bottom: 3rem;
+}
+
+.skill--heading{
+    color: var(--dark-01);
+    margin-bottom: 2rem;
+}
+
+/***** End skills Section *****/
 
 
 /***** End main Section *****/
