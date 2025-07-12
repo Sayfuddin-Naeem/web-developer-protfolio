@@ -341,3 +341,86 @@ main h2{
 /***** End main Section *****/
 
 
+/***** footer Section *****/ 
+
+.section-footer{
+    background-color: var(--bg-primary);
+}
+
+.section-footer--content{
+    display: flex;
+    gap: 11.7rem;
+    padding: 13rem 0;
+}
+
+.footer--heading{
+    margin-bottom: 2.5rem;
+    white-space: nowrap;
+}
+
+.footer-social-media--details{
+    color: var(--dark-02);
+    margin-bottom: 3rem;
+}
+
+.social-media--icon{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.contact-form input{
+    height: 6.4rem;
+}
+
+.contact-form textarea{
+    height: 18rem;
+    resize: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.contact-form input,
+.contact-form textarea{
+    display: block;
+    width: 34.575rem;
+    padding: 1.8rem 3rem;
+    letter-spacing: 0.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus{
+    /* outline: 0.1rem solid var(--btn-primary); */
+    outline: none;
+    box-shadow: 0 0 0.5rem var(--btn-primary);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: var(--dark-04);
+}
+
+.contact-form button{
+    width: 15rem;
+    height: 6rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
+/***** End footer Section *****/
+
+
+
